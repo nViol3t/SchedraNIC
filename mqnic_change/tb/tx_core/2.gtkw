@@ -1,0 +1,113 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Fri Jul 18 06:46:35 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/pifo/bwm_pifo/BMWTree/BMW_PIFO_SRAM_change/tb/tx_core_with_cpl/tx_core_with_cpl.fst"
+[dumpfile_mtime] "Fri Jul 18 06:17:06 2025"
+[dumpfile_size] 67683
+[savefile] "/home/dyc/Project/RDMA/pifo/bwm_pifo/BMWTree/BMW_PIFO_SRAM_change/tb/tx_core_with_cpl/2.gtkw"
+[timestart] 82800
+[size] 1177 1375
+[pos] 3303 0
+*-16.000000 187300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tx_core_with_cpl.
+[treeopen] tx_core_with_cpl.port[0].
+[treeopen] tx_core_with_cpl.port[0].port_inst.
+[treeopen] tx_core_with_cpl.port[0].port_inst.port_tx_inst.
+[treeopen] tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.
+[treeopen] tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.fifo_inst.
+[sst_width] 311
+[signals_width] 278
+[sst_expanded] 1
+[sst_vpaned_height] 414
+@28
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.clk
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_clk
+@22
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.s_axis_if_tx_tdata[511:0]
+@28
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.s_axis_if_tx_tlast
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.s_axis_if_tx_tvalid
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.s_axis_if_tx_tready
+@200
+-
+@22
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.axis_tx_async_fifo_tdata[511:0]
+@28
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.axis_tx_async_fifo_tvalid
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.axis_tx_async_fifo_tready
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.axis_tx_async_fifo_tlast
+@200
+-
+@22
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.pre_fifo_axis_tdata[511:0]
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.fifo_inst.s_axis[583:0]
+@200
+-
+@22
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.fifo_inst.m_axis[583:0]
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.post_fifo_axis_tdata[511:0]
+@200
+-
+@28
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.fifo_inst.m_axis_tvalid_pipe_reg
+tx_core_with_cpl.port[0].port_inst.port_tx_inst.tx_async_fifo_inst.fifo_inst.m_axis_tready_pipe
+tx_core_with_cpl.port[0].port_inst.tx_enable_reg
+@c00022
+tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+@28
+(0)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(1)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(2)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(3)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(4)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(5)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(6)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(7)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(8)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(9)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(10)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(11)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(12)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(13)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(14)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(15)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(16)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(17)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(18)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(19)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(20)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(21)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(22)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(23)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(24)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(25)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(26)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(27)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(28)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(29)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(30)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+(31)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_data[31:0]
+@1401200
+-group_end
+@28
+tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_en
+tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_ack_reg
+@c00023
+tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+@28
+(0)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(1)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(2)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(3)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(4)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(5)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(6)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(7)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(8)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(9)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+(10)tx_core_with_cpl.port[0].port_inst.ctrl_reg_wr_addr[10:0]
+@1401201
+-group_end
+[pattern_trace] 1
+[pattern_trace] 0

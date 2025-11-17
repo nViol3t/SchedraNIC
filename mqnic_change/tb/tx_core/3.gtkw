@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Sep  6 12:02:09 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/mqnic_change/tb/tx_core/tx_core_with_cpl.fst"
+[dumpfile_mtime] "Sat Sep  6 11:58:49 2025"
+[dumpfile_size] 195277
+[savefile] "/home/dyc/Project/RDMA/mqnic_change/tb/tx_core/3.gtkw"
+[timestart] 7686150
+[size] 2560 1375
+[pos] -51 -51
+*-14.000000 7746110 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tx_core_with_cpl.
+[sst_width] 233
+[signals_width] 279
+[sst_expanded] 1
+[sst_vpaned_height] 414
+@28
+tx_core_with_cpl.pifo_inst.clk
+tx_core_with_cpl.pifo_inst.Pifo_Empty
+tx_core_with_cpl.pifo_inst.Top_Pop_req_valid
+@29
+tx_core_with_cpl.pifo_inst.Top_Pop_req_ready
+@28
+tx_core_with_cpl.pifo_inst.Top_Push_valid
+tx_core_with_cpl.pifo_inst.Top_Push_ready
+[pattern_trace] 1
+[pattern_trace] 0

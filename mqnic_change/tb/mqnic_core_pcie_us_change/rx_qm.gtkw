@@ -1,0 +1,64 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Wed Jul 23 08:46:18 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/mqnic_core_pcie_us.fst"
+[dumpfile_mtime] "Sat Jun 28 08:21:51 2025"
+[dumpfile_size] 32990958
+[savefile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/rx_qm.gtkw"
+[timestart] 19200000000
+[size] 2560 1375
+[pos] -51 -51
+*-35.000000 194000000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mqnic_core_pcie_us.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.
+[sst_width] 492
+[signals_width] 361
+[sst_expanded] 1
+[sst_vpaned_height] 613
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.clk
+@200
+-axil ctrl{
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_awvalid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_awready
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_awaddr[20:0]
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_wvalid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_wready
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axil_wdata[31:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.queue_ram_read_ptr[7:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.queue_ram_read_data_prod_ptr[15:0]
+@23
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.queue_ram_read_data_cons_ptr[15:0]
+@200
+-dequeue req{
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_req_queue[7:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_req_tag[5:0]
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_req_valid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_req_ready
+@200
+-dequeue resp{
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.m_axis_dequeue_resp_queue[7:0]
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.m_axis_dequeue_resp_valid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.m_axis_dequeue_resp_ready
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.m_axis_dequeue_resp_empty
+@200
+-dequeue commit{
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_commit_op_tag[5:0]
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_commit_valid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_qm_inst.s_axis_dequeue_commit_ready
+[pattern_trace] 1
+[pattern_trace] 0

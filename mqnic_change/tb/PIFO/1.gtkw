@@ -1,0 +1,24 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Mon Sep  8 07:28:56 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/mqnic_change/tb/PIFO/PIFO_SRAM_Top.fst"
+[dumpfile_mtime] "Mon Sep  8 07:27:34 2025"
+[dumpfile_size] 9420396
+[savefile] "/home/dyc/Project/RDMA/mqnic_change/tb/PIFO/1.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-27.000000 104000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 144
+@28
+PIFO_SRAM_Top.Top_Push_valid
+PIFO_SRAM_Top.Top_Push_ready
+PIFO_SRAM_Top.Top_Pop_req_valid
+@29
+PIFO_SRAM_Top.Top_Pop_req_ready
+[pattern_trace] 1
+[pattern_trace] 0

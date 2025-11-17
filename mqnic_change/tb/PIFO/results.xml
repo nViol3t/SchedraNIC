@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1757316621" />
+    <testcase name="run_test_001" classname="test_PIFO_SRAM_Top" file="/home/dyc/Project/RDMA/corundum/.venv/lib/python3.10/site-packages/cocotb/regression.py" lineno="713" time="71.71443057060242" sim_time_ns="371332.001" ratio_time="5177.9258099864" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Fri Jul 11 02:31:27 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/pifo/bwm_pifo/BMWTree/BMW_PIFO_SRAM_change/tb/tx_core_with_cpl/tx_core_with_cpl.fst"
+[dumpfile_mtime] "Thu Jul 10 14:42:12 2025"
+[dumpfile_size] 58009
+[savefile] "/home/dyc/Project/RDMA/pifo/bwm_pifo/BMWTree/BMW_PIFO_SRAM_change/tb/tx_core_with_cpl/1.gtkw"
+[timestart] 978600
+[size] 2560 1375
+[pos] -1 -1
+*-16.000000 1134900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tx_core_with_cpl.
+[sst_width] 372
+[signals_width] 567
+[sst_expanded] 1
+[sst_vpaned_height] 414
+@28
+tx_core_with_cpl.cqm_inst.clk
+@200
+-event{
+@22
+tx_core_with_cpl.event_queue[4:0]
+tx_core_with_cpl.event_source[15:0]
+@28
+tx_core_with_cpl.event_valid
+tx_core_with_cpl.event_ready
+tx_core_with_cpl.cqm_inst.op_commit_pipe_reg[2:0]
+@29
+tx_core_with_cpl.cqm_inst.queue_ram_read_data_armed
+@200
+-commit{
+@28
+tx_core_with_cpl.cqm_inst.s_axis_enqueue_commit_valid
+tx_core_with_cpl.cqm_inst.s_axis_enqueue_commit_ready
+@200
+-dma_resp{
+@28
+tx_core_with_cpl.cpl_write_inst.s_axis_dma_write_desc_status_valid
+@22
+tx_core_with_cpl.cqm_inst.queue_ram_read_ptr[8:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sun Jul 27 09:06:41 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/mqnic_core_pcie_us.fst"
+[dumpfile_mtime] "Sat Jun 28 08:21:51 2025"
+[dumpfile_size] 32990958
+[savefile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/desc_mux.gtkw"
+[timestart] 39291600000
+[size] 1280 1375
+[pos] 1229 -51
+*-25.000000 39309700000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mqnic_core_pcie_us.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.desc_fetch_inst.
+[treeopen] mqnic_core_pcie_us.pcie_if_inst.
+[sst_width] 410
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 414
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.rx_desc_req_tag[4:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.tx_desc_req_tag[4:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.desc_req_tag[5:0]
+@29
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.desc_req_sel
+[pattern_trace] 1
+[pattern_trace] 0

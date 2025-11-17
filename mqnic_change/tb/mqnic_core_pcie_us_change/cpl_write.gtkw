@@ -1,0 +1,63 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Thu Jul 10 08:13:54 2025
+[*]
+[dumpfile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/mqnic_core_pcie_us.fst"
+[dumpfile_mtime] "Sat Jun 28 08:21:51 2025"
+[dumpfile_size] 32990958
+[savefile] "/home/dyc/Project/RDMA/corundum/fpga/common/tb/mqnic_core_pcie_us/cpl_write.gtkw"
+[timestart] 38448340000
+[size] 2560 1375
+[pos] 1869 0
+*-23.000000 38470650000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] mqnic_core_pcie_us.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.sched[0].
+[treeopen] mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.sched[0].scheduler_block.
+[sst_width] 497
+[signals_width] 582
+[sst_expanded] 1
+[sst_vpaned_height] 569
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.tx_qm_inst.clk
+@200
+-data dma req{
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_dma_addr[63:0]
+@25
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_ram_addr[16:0]
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_len[15:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_tag[14:0]
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_valid
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.m_axis_dma_read_desc_ready
+@200
+-data dma resp{
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.s_axis_dma_read_desc_status_valid
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.s_axis_dma_read_desc_status_tag[14:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.s_axis_dma_read_desc_status_error[3:0]
+@200
+-RAM interface{
+@22
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_be[127:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_addr[19:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_data[1023:0]
+@c00028
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_valid[1:0]
+@28
+(0)mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_valid[1:0]
+(1)mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_valid[1:0]
+@1401200
+-group_end
+@28
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_cmd_ready[1:0]
+mqnic_core_pcie_us.core_pcie_inst.core_inst.iface[0].interface_inst.interface_tx_inst.dma_ram_wr_done[1:0]
+[pattern_trace] 1
+[pattern_trace] 0
