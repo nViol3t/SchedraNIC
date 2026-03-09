@@ -1,6 +1,0 @@
-<testsuites name="results">
-  <testsuite name="all" package="all">
-    <property name="random_seed" value="1757314830" />
-    <testcase name="run_test_nic" classname="test_mqnic_core_pcie_us" file="/home/dyc/Project/RDMA/mqnic_change/tb/mqnic_core_pcie_us_change/test_mqnic_core_pcie_us.py" lineno="432" time="1259.1313066482544" sim_time_ns="1611160.000001" ratio_time="1279.5806056874471" />
-  </testsuite>
-</testsuites>
