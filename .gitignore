@@ -1,0 +1,11 @@
+# Ignore temporary and generated files
+.mcp.json
+.vscode/
+.Xil/
+*.jou
+*.log
+*.wdb
+*.cache/
+*.tmp/
+sim_build/
+sim/
