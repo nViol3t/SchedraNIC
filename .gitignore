@@ -9,3 +9,62 @@
 *.tmp/
 sim_build/
 sim/
+
+# FPGA engineering related - Vivado project files
+fpga/*.xpr
+fpga/*.bit
+fpga/*.rpt
+fpga/*.xdc
+fpga/*.tcl
+fpga/fpga_100g/fpga_AU50/fpga.cache/
+fpga/fpga_100g/fpga_AU50/fpga.gen/
+fpga/fpga_100g/fpga_AU50/fpga.hw/
+fpga/fpga_100g/fpga_AU50/fpga.ip_user_files/
+fpga/fpga_100g/fpga_AU50/fpga.runs/
+fpga/fpga_100g/fpga_AU50/fpga.sim/
+fpga/fpga_100g/fpga_AU50/fpga.srcs/
+fpga/fpga_100g/fpga_AU50/*.xpr
+fpga/fpga_100g/fpga_AU50/*.bit
+fpga/fpga_100g/fpga_AU50/*.rpt
+fpga/fpga_100g/fpga_AU50/*.jou
+fpga/fpga_100g/fpga_AU50/*.log
+fpga/fpga_100g/fpga_AU50/*.str
+fpga/fpga_100g/fpga_AU50/.Xil/
+fpga/fpga_100g/fpga_AU50/rev/
+fpga/fpga_100g/ip/
+fpga/mqnic_pcie_core_us_change/
+fpga/syn/
+fpga/fpga_100g/.Xil/
+
+# Test results - reports, images, packet captures
+test/
+*.pdf
+*.png
+*.zip
+tb/*.zip
+tb/mqnic_change_last.zip
+tb/packet.zip
+
+# AI / ML related (Python virtual environments, models)
+tb/.venv/
+tb/__pycache__/
+tb/*.pyc
+test/**
+
+# Vivado logs and backup files
+*vivado*.jou
+*vivado*.log
+*vivado*.str
+*hs_err*.log
+vivado.jou
+vivado.log
+*.backup.jou
+*.backup.log
+
+# Backup and temporary files
+backup/
+*.tmp
+*.wdb
+*.cache/
+*.tmp/
+env/
